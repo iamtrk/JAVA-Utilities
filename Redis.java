@@ -5,7 +5,7 @@ import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
 public enum Redis {
-    /* Singleton Redis class based on Jedis.
+    /* Singleton Redis class based on Jedis. */
     INSTANCE;
 
     private final JedisPool pool = new JedisPool(new JedisPoolConfig(), "<redis server>");
