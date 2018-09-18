@@ -3,7 +3,7 @@
         a) When a GC is run - live objects from eden & s1 is moved to s2 OR from eden & s2 is moved to s1  
           (because of fragmentation optimizations).  
     b) Tenured Generation  
-    c) Perm Generation  
+    c) Perm Generation (Metaspace in Java8)
     
 2) Different kinds of GC Algs  
     a) G1 GC - Designed for Application running on multi processor machines, with huge RAM. Divides the heap into a set of
