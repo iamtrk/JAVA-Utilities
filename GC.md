@@ -17,3 +17,5 @@
 3) Tools:  
     a) Eclipse MAT for heap analysis.  
     c) JVM Configuration to take a heap dump on JVM crash.  
+    
+4) java -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+PrintGCApplicationStoppedTime -XX:+PrintGCApplicationConcurrentTime -Xloggc:/home/ravi/devapps/gc.log -jar target/jvm-0.0.1-SNAPSHOT.jar
